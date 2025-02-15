@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Valentine</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA Compatible" content="IE=edge">
+        <link rel="stylesheet" href="surp_design.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <audio id="background-music" autoplay loop>
+            <source src="./Assets/Palagi.mp3" type="audio/mpeg">
+          </audio>
+        <div class="box">
+            <h1 id="header" style="cursor: pointer;">Happy Valentine's Day!</h1>
+            <div class="envelope_wrapper">
+                <div class="envelope">
+                    <div class="letter">
+                        <div class="text">
+                            <strong id="dear">My Dearest Angel</strong>
+                            <p>
+                                Hello! First of all, I just want to say HAPPY VALENTINE's DAY!! Alam ko na medyo late na ako hahahaha, newbie coder palang ihhh hahahahhaha. Ayun, I just want to say na You are the best person in the world. I am super duper grateful sayo and for all of the things that you do. Thank you for always being there for me through our ups and downs. You are a very very wonderful person. Beautiful inside and out. Alam ko na madalas tayo nag aaway, and hindi nagkakaintindihan. But I thank you for always staying and being there for me. Know that I will always be there for you as well. Whatever happens. I LOVE YOU SO MUCH!! Happy Valentines my LOVE!! MWAAAA
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="heart"></div>
+            </div>
+        </div>
+
+        <script>
+            const envelope = document.querySelector('.envelope_wrapper'); 
+
+            envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+});
+
+            document.getElementById("header").addEventListener("click", function() {
+            window.location.href = "Flowers.html";
+    });
+        </script>
+    </body>
+</html>
