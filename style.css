@@ -10,7 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/Assets/valentinesbg.png);
+    background-image: url("https://AaronJoshua005.github.io/Surprise/Assets/valentinesbg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
